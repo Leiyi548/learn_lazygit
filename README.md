@@ -52,6 +52,7 @@
 
 1. git reset --soft 撤销 commit
 2. git reset --mixed 撤销 commit 和 add 两个动作
+3. git reset --hard 回到那次提交 commit 和 add 全部不留
 
 ### 已经提交,并且 push 了
 
