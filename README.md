@@ -24,3 +24,22 @@
 ### git 提交区显示和操作(第四分区)操作
 
 - 按(r)快捷键可以把提交改名(push)到远程库的也能改名,改名完后再 push 到远程库就修改成功了
+- 按(g)快捷键可以重置提交 然后这里会有选项 (soft mixed hard)
+
+## git 回滚的相关知识
+
+这里 git 回滚主要有下面三个命令
+
+- git reset--soft
+- git reset--mixed
+- git reset--hard
+
+### 已经提交,没有 push
+
+1. git reset --soft 撤销 commit
+2. git reset --mixed 撤销 commit 和 add 两个动作
+
+### 已经提交,并且 push 了
+
+1. git reset --hard 撤销并舍弃版本号之后的提交记录.**使用需要谨慎**
+2. git revert 撤销,但是保留提交记录
