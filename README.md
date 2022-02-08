@@ -1,4 +1,4 @@
-# learn_lazygit
+# 学习使用 lazygit
 
 我使用这个仓库来学习 lazygit,我会在这里来测试 lazygit 的命令
 
